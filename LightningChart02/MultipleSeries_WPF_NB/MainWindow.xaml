@@ -1,0 +1,6 @@
+﻿<Window x:Class="MultipleSeries_WPF_NB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="LightningChart tutorial 02 - Multiple Series Chart" Height="350" Width="525">
+    <Grid/>
+</Window>

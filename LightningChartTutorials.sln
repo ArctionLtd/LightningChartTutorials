@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LightningChart01", "LightningChart01", "{8387B069-8BD8-42A8-9FF6-F92497180644}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LightningChart02", "LightningChart02", "{845DDCD4-9C8D-40E9-B339-FA3D3F2AE2C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLine_WF", "LightningChart01\SimpleLine_WF\SimpleLine_WF.csproj", "{4DFA7BDD-CC2E-4D85-9496-938C4D5AFFBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLine_WPF_SB", "LightningChart01\SimpleLine_WPF_SB\SimpleLine_WPF_SB.csproj", "{A2E7D9BC-D37A-4527-BD4A-F0715BD43A91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleSeries_WF", "LightningChart02\MultipleSeries_WF\MultipleSeries_WF.csproj", "{D3C416F1-BABC-4996-8782-830FA2DE4699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleSeries_WPF_NB", "LightningChart02\MultipleSeries_WPF_NB\MultipleSeries_WPF_NB.csproj", "{05CBD5F0-9CC4-4799-924F-D3E5EC2CFB54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleSeries_WPF_SB", "LightningChart02\MultipleSeries_WPF_SB\MultipleSeries_WPF_SB.csproj", "{8188C2A0-9CE3-4F18-8721-375290837E84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLine_WPF_NB", "LightningChart01\SimpleLine_Wpf_NB\SimpleLine_WPF_NB.csproj", "{FBFBE24B-74CB-4048-B388-30230BF713F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DFA7BDD-CC2E-4D85-9496-938C4D5AFFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DFA7BDD-CC2E-4D85-9496-938C4D5AFFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DFA7BDD-CC2E-4D85-9496-938C4D5AFFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DFA7BDD-CC2E-4D85-9496-938C4D5AFFBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E7D9BC-D37A-4527-BD4A-F0715BD43A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E7D9BC-D37A-4527-BD4A-F0715BD43A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E7D9BC-D37A-4527-BD4A-F0715BD43A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E7D9BC-D37A-4527-BD4A-F0715BD43A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3C416F1-BABC-4996-8782-830FA2DE4699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C416F1-BABC-4996-8782-830FA2DE4699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C416F1-BABC-4996-8782-830FA2DE4699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C416F1-BABC-4996-8782-830FA2DE4699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05CBD5F0-9CC4-4799-924F-D3E5EC2CFB54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05CBD5F0-9CC4-4799-924F-D3E5EC2CFB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05CBD5F0-9CC4-4799-924F-D3E5EC2CFB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05CBD5F0-9CC4-4799-924F-D3E5EC2CFB54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8188C2A0-9CE3-4F18-8721-375290837E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8188C2A0-9CE3-4F18-8721-375290837E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8188C2A0-9CE3-4F18-8721-375290837E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8188C2A0-9CE3-4F18-8721-375290837E84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBFBE24B-74CB-4048-B388-30230BF713F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBFBE24B-74CB-4048-B388-30230BF713F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBFBE24B-74CB-4048-B388-30230BF713F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBFBE24B-74CB-4048-B388-30230BF713F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4DFA7BDD-CC2E-4D85-9496-938C4D5AFFBC} = {8387B069-8BD8-42A8-9FF6-F92497180644}
+		{A2E7D9BC-D37A-4527-BD4A-F0715BD43A91} = {8387B069-8BD8-42A8-9FF6-F92497180644}
+		{D3C416F1-BABC-4996-8782-830FA2DE4699} = {845DDCD4-9C8D-40E9-B339-FA3D3F2AE2C3}
+		{05CBD5F0-9CC4-4799-924F-D3E5EC2CFB54} = {845DDCD4-9C8D-40E9-B339-FA3D3F2AE2C3}
+		{8188C2A0-9CE3-4F18-8721-375290837E84} = {845DDCD4-9C8D-40E9-B339-FA3D3F2AE2C3}
+		{FBFBE24B-74CB-4048-B388-30230BF713F8} = {8387B069-8BD8-42A8-9FF6-F92497180644}
+	EndGlobalSection
+EndGlobal
