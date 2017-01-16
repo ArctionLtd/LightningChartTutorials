@@ -4,6 +4,9 @@
         xmlns:lcu="http://schemas.arction.com/semibindablecharting/ultimate/"
         Title="LightningChart tutorial 02 - Multiple Series Chart" Height="350" Width="525">
     <Grid>
+        <Grid.Resources>
+            <Color x:Key="color2">#FFFF4300</Color>
+        </Grid.Resources>
         <lcu:LightningChartUltimate Name="chart">
             <lcu:LightningChartUltimate.ViewXY>
                 <lcu:ViewXY>
@@ -21,7 +24,7 @@
                                 <lcu:SeriesTitle Text="Sinus data"/>
                             </lcu:PointLineSeries.Title>
                             <lcu:PointLineSeries.LineStyle>
-                                <lcu:LineStyle Color="#FFFF4300" AntiAliasing="Normal" Width="2" Pattern="DashDot"/>
+                                <lcu:LineStyle Color="{StaticResource color2}" AntiAliasing="Normal" Width="2" Pattern="DashDot"/>
                             </lcu:PointLineSeries.LineStyle>
                         </lcu:PointLineSeries>
                     </lcu:ViewXY.PointLineSeries>
