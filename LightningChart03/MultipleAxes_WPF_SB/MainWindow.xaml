@@ -1,0 +1,46 @@
+﻿<Window x:Class="MultipleAxes_WPF_SB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:lcu="http://schemas.arction.com/semibindablecharting/ultimate/"
+        Title="LightningChart tutorial 03 - Multiple Axes Chart" Height="350" Width="525">
+    <Grid>
+        <Grid.Resources>
+            <Color x:Key="color">#FFFF4300</Color>
+        </Grid.Resources>
+        <lcu:LightningChartUltimate Name="chart">
+            <lcu:LightningChartUltimate.ViewXY>
+                <lcu:ViewXY>
+                    <lcu:ViewXY.PointLineSeries>
+                        <lcu:PointLineSeries x:Name="series">
+                            <lcu:PointLineSeries.Title>
+                                <lcu:SeriesTitle Text="Random data"/>
+                            </lcu:PointLineSeries.Title>
+                            <lcu:PointLineSeries.LineStyle>
+                                <lcu:LineStyle Color="#FFFFA500" AntiAliasing="Normal" Width="2"/>
+                            </lcu:PointLineSeries.LineStyle>
+                        </lcu:PointLineSeries>
+                        <lcu:PointLineSeries x:Name="series2" AssignYAxisIndex="1">
+                            <lcu:PointLineSeries.Title>
+                                <lcu:SeriesTitle Text="Sinus data"/>
+                            </lcu:PointLineSeries.Title>
+                            <lcu:PointLineSeries.LineStyle>
+                                <lcu:LineStyle Color="{StaticResource color}" AntiAliasing="Normal" Width="2" Pattern="DashDot"/>
+                            </lcu:PointLineSeries.LineStyle>
+                        </lcu:PointLineSeries>
+                    </lcu:ViewXY.PointLineSeries>
+                    <lcu:ViewXY.YAxes>
+                        <lcu:AxisY/>
+                        <lcu:AxisY x:Name="newAxisY" AxisColor="{StaticResource color}">
+                            <lcu:AxisY.MajorGrid>
+                                <lcu:GridOptions Color="#33FFFFFF" Pattern="Dot" PatternScale="2" Visible="False"/>
+                            </lcu:AxisY.MajorGrid>
+                        </lcu:AxisY>
+                    </lcu:ViewXY.YAxes>
+                    <lcu:ViewXY.XAxes>
+                        <lcu:AxisX/>
+                    </lcu:ViewXY.XAxes>
+                </lcu:ViewXY>
+            </lcu:LightningChartUltimate.ViewXY>
+        </lcu:LightningChartUltimate>
+    </Grid>
+</Window>
